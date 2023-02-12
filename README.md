@@ -5,19 +5,19 @@
 ## Getting Started
 *To use MTemplate, follow these steps:*
 
-1. Clone the repository:
+- Clone the repository:
 ```
 git clone --recursive https://github.com/yuI4140/MTemplate.git
 ```
-2. Install Conan (if not already installed):
+- Install Conan (if not already installed):
 ```
 pip install conan
 ```
-3. Install the dependencies using Conan:
+- Install the dependencies using Conan:
 ```
 conan install . --build missing
 ```
-3. Generate a Visual Studio solution file (if desired):
+- Generate a Visual Studio solution file (if desired):
 ```
 .\premake5.exe vs2022
 ```
