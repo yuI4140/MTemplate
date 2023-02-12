@@ -25,11 +25,6 @@
 *.la
 *.a
 *.lib
-
-# Executables
-*.exe
-*.out
-*.app
 # Ignore conan
 conan.lock
 conanbuildinfo**
