@@ -24,5 +24,6 @@ conan install . --build missing
 **This will generate a .sln file that you can use to build your project.**
 ## Licenses
 [Premake](premake5.LICENSE.txt)
+
 [Repository](LICENSE)
 
