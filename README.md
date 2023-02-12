@@ -1,31 +1,28 @@
-# MTemplate
-**a template for import libs with conan**
-## Usage:
-*frist do a git clone:*
+# MTemplate: A Template for Importing Libraries with Conan
+## Overview
 
-```bat
+**MTemplate is a template that helps you manage dependencies and import libraries in your project using Conan. This template makes it easy for you to start a new project by providing a well-organized structure for your code and dependencies.**
+## Getting Started
+*To use MTemplate, follow these steps:*
 
+1. Clone the repository:
+```
 git clone --recursive https://github.com/yuI4140/MTemplate.git
 ```
->if you have conan installed then you can ignore this part
-
-**then if you don't have conan you can do the following command:**
-
+2. Install Conan (if not already installed):
 ```
 pip install conan
 ```
-*then you can install conan typing the following command:*
+3. Install the dependencies using Conan:
 ```
 conan install . --build missing
 ```
-
-Done!
-if wanto to *.sln type:
+3. Generate a Visual Studio solution file (if desired):
 ```
 .\premake5.exe vs2022
 ```
-and it'll generte a .sln file.
-## LICENSES
-[PREMAKE](premake5.LICENSE.txt)
-[REPO](LICENSE)
+**This will generate a .sln file that you can use to build your project.**
+## Licenses
+[Premake](premake5.LICENSE.txt)
+[Repository](LICENSE)
 
