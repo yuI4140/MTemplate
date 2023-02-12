@@ -7,8 +7,8 @@
 
 git clone --recursive https://github.com/yuI4140/MTemplate.git
 ```
->if you have conan installed then you can ignore this
-**then if you don't have conan you can do the following command:
+>if you have conan installed then you can ignore this part
+**then if you don't have conan you can do the following command:**
 
 ```
 pip install conan
