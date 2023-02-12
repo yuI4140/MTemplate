@@ -3,7 +3,11 @@
 
 **MTemplate is a template that helps you manage dependencies and import libraries in your project using Conan. This template makes it easy for you to start a new project by providing a well-organized structure for your code and dependencies.**
 ## Getting Started
-*To use MTemplate, follow these steps:*
+### Project Structure
+- Create a new folder called `bin` and `app` within your project folder.
+
+**These folders will contain the output files from your builds and the source code for your application, respectively.**
+
 
 - Clone the repository:
 ```
