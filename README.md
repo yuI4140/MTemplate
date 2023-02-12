@@ -9,6 +9,10 @@
 ```
 git clone --recursive https://github.com/yuI4140/MTemplate.git
 ```
+
+- In your project folder create a new folder called `bin` and `app`
+**this folder will contain the extra files how when you compile or the visual estudio files**
+
 - Install Conan (if not already installed):
 ```
 pip install conan
