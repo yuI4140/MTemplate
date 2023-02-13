@@ -7,7 +7,7 @@
 ```
 git clone --recursive https://github.com/yuI4140/MTemplate.git
 ```
-- In the generated folder create a two folders called `bin` and `app`
+- In the generated folder create two folders called `bin` and `app`
 
 **These folders will contain the output files from your builds and the source code for your application, respectively.**
 
