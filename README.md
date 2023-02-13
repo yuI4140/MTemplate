@@ -3,20 +3,13 @@
 
 **MTemplate is a template that helps you manage dependencies and import libraries in your project using Conan. This template makes it easy for you to start a new project by providing a well-organized structure for your code and dependencies.**
 ## Getting Started
-### Project Structure
-- Create a new folder called `bin` and `app` within your project folder.
-
-**These folders will contain the output files from your builds and the source code for your application, respectively.**
-
-
 - Clone the repository:
 ```
 git clone --recursive https://github.com/yuI4140/MTemplate.git
 ```
+- In the generated folder create a two folders called `bin` and `app`
 
-- In your project folder create a new folder called `bin` and `app`
-
-**this folder will contain the extra files how when you compile or the visual estudio files**
+**These folders will contain the output files from your builds and the source code for your application, respectively.**
 
 - Install Conan (if not already installed):
 ```
